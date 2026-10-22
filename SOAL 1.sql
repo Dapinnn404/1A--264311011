@@ -8,12 +8,14 @@ CREATE TABLE laporan (
   id_pengguna INT NOT NULL,
   id_fasilitas INT NOT NULL,
 
+  
 -- Tabel Induk 1: Gedung
 CREATE TABLE gedung (
   id_gedung    INT AUTO_INCREMENT PRIMARY KEY,
   nama_gedung  VARCHAR(100) NOT NULL,
   lokasi       VARCHAR(150)
 ) ENGINE=InnoDB;
+
 
 -- Tabel Induk 2: Pengguna
 CREATE TABLE pengguna (
