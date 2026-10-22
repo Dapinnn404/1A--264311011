@@ -9,7 +9,7 @@ INSERT INTO laporan (deskripsi_kerusakan, tingkat_urgensi, id_pengguna, id_fasil
 INSERT INTO pengguna (nama_pengguna, nomor_pengenal, email, peran) VALUES
 ('Beni', '264311001', 'beni@pnm.ac.id', 'Mahasiswa'),
 ('Udin', '198001012005012001', 'udin@pnm.ac.id', 'Dosen'),
-('Lani', '264311005', 'Lani@pnm.ac.id', 'Mahasiswa');
+('Lani', '264311005', 'lani@pnm.ac.id', 'Mahasiswa');
 
 
 -- 3. Dummy Tabel Induk: Gedung (3 baris)
