@@ -7,16 +7,16 @@ INSERT INTO laporan (deskripsi_kerusakan, tingkat_urgensi, id_pengguna, id_fasil
 
 -- 2. Dummy Tabel Induk: Pengguna (3 baris)
 INSERT INTO pengguna (nama_pengguna, nomor_pengenal, email, peran) VALUES
-('Budi Santoso', '264311001', 'budi@kampus.ac.id', 'Mahasiswa'),
-('Dr. Siti Aminah', '198001012005012001', 'siti@kampus.ac.id', 'Dosen'),
-('Rian Hidayat', '264311005', 'rian@kampus.ac.id', 'Mahasiswa');
+('Beni', '264311001', 'budi@kampus.ac.id', 'Mahasiswa'),
+('Udin', '198001012005012001', 'siti@kampus.ac.id', 'Dosen'),
+('Lani', '264311005', 'rian@kampus.ac.id', 'Mahasiswa');
 
 
 -- 3. Dummy Tabel Induk: Gedung (3 baris)
 INSERT INTO fasilitas (nama_fasilitas, kode_qr, id_ruangan) VALUES 
-('AC Split 1.5 PK', 'QR-001', 1),
+('AC Split 1 PK', 'QR-001', 1),
 ('Proyektor Epson', 'QR-002', 1),
-('Kursi Kuliah Chitose', 'QR-003', 2);
+('Kursi Kuliah', 'QR-003', 2);
 
 
 -- =====================================================
