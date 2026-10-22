@@ -1,4 +1,4 @@
---Query kompleks dan agregasi laporan
+--Query Kompleks dan Agregasi Laporan
 SELECT 
     g.nama_gedung,
     COUNT(l.id_laporan) AS total_lapor_kerusakan
